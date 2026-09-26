@@ -66,6 +66,14 @@ Convert the double value into an int using explicit type casting and use the % o
 		
 		
 	}
+	/*
+	 * A person's age is stored as a double.
+
+double age = 21.5;
+Question:
+Convert the age into an int using type casting and use relational and logical operators to check whether the person is eligible to apply for a driving license (age >= 18 and age <= 60).
+	 */
+	
 	void Drivingeligibility() {
 		double age=21.5;
 		int intage=(int) age;
