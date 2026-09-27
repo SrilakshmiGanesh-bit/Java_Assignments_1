@@ -38,11 +38,11 @@
 			Card_child card=new Card_child();
 			card.pay();
 			// OVerall oops scenario
-			Vehicle vehicle=new Vehicle();// object
-			vehicle.setSpeed(50);// encapsulation
+			Vehicle vehicle=new Vehicle();
+			vehicle.setSpeed(50);
 			System.out.println("Vehicle speed is "+ vehicle.getSpeed()+"kmph");
 			Car car=new Car();
-			car.start();// polymorphism
+			car.start();
 			Bike bike=new Bike();
 			bike.start();
 			vehicle.stop();
